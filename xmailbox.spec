@@ -1,14 +1,16 @@
 Summary:	An X Window System utility which notifies you of new mail
+Summary(pl):	Narzêdzie pod X powiadamiaj±ce o nowej poczcie
 Name:		xmailbox
 Version:	2.5
 Release:	7
-Copyright:	MIT
+License:	MIT
 Group:		Applications/Mail
+Group(de):	Applikationen/Post
 Group(pl):	Aplikacje/Poczta
 Group(pt):	Aplicações/Correio Eletrônico
 Source0:	ftp://ftp.x.org/contrib/applications/%{name}-%{version}.tar.gz
-Patch1:		xmailbox-2.2-xpm.patch
-Patch2:		xmailbox-2.4-glibc.patch
+Patch1:		%{name}-2.2-xpm.patch
+Patch2:		%{name}-2.4-glibc.patch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
@@ -29,8 +31,8 @@ which will notify you when new mail arrives.
 
 %build
 xmkmf
-%{__make} CXXDEBUGFLAGS="$RPM_OPT_FLAGS" \
-	CDEBUGFLAGS="$RPM_OPT_FLAGS"
+%{__make} CXXDEBUGFLAGS="%{rpmcflags}" \
+	CDEBUGFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -38,9 +40,7 @@ install -d $RPM_BUILD_ROOT%{_sysconfdir}/X11/wmconfig
 
 %{__make} install install.man DESTDIR=$RPM_BUILD_ROOT
 
-strip --strip-unneeded $RPM_BUILD_ROOT%{_bindir}/*
-
-gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man1/* README
+gzip -9nf README
 
 cat > $RPM_BUILD_ROOT%{_sysconfdir}/X11/wmconfig/xmailbox <<EOF
 xmailbox name "xmailbox"
@@ -56,6 +56,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README.gz
 %attr(755,root,root) %{_bindir}/xmailbox
-%{_mandir}/man1/xmailbox.1x.gz
+%{_mandir}/man1/xmailbox.1x*
 %config %{_libdir}/X11/app-defaults/XMailbox
 %config %{_sysconfdir}/X11/wmconfig/xmailbox
