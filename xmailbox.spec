@@ -19,14 +19,16 @@ Summary(sv):	Ett verktyg under X11 som meddelar n鋜 du f錿t ny post
 Summary(zh_CN):	一个通知你新到邮件的 X 窗口系统工具。
 Name:		xmailbox
 Version:	2.5
-Release:	15
+Release:	16
 License:	MIT
 Group:		Applications/Mail
 Source0:	ftp://ftp.x.org/contrib/applications/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
+Source2:	%{name}.png
 Patch1:		%{name}-xpm.patch
 Patch2:		%{name}-glibc.patch
 Patch3:		%{name}-main-returntype.patch
+Patch4:		%{name}-PLD.patch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
@@ -117,6 +119,7 @@ Xmailbox 类似于 xbiff 程序，但是提供了更多的功能和通知选项。
 %patch1 -p1
 %patch2 -p1
 %patch3 -p1
+%patch4 -p1
 
 %build
 xmkmf
@@ -125,11 +128,15 @@ xmkmf
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_applnkdir}/Network/Mail
+install -d $RPM_BUILD_ROOT{%{_applnkdir}/Network/Mail,%{_pixmapsdir}} \
+	$RPM_BUILD_ROOT%{_datadir}/%{name}/{icons,sounds}
 
 %{__make} install install.man DESTDIR=$RPM_BUILD_ROOT
 
 install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Network/Mail/xmailbox.desktop
+install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
+install *.xpm icons/*.xpm $RPM_BUILD_ROOT%{_datadir}/%{name}/icons
+install *.au $RPM_BUILD_ROOT%{_datadir}/%{name}/sounds
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -141,3 +148,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/xmailbox.1x*
 %config %{_libdir}/X11/app-defaults/XMailbox
 %{_applnkdir}/Network/Mail/xmailbox.desktop
+%{_datadir}/%{name}/icons/*
+%{_datadir}/%{name}/sounds/*
+%{_pixmapsdir}/xmailbox.png
