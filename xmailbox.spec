@@ -9,7 +9,7 @@ Summary(is):	X hjálparforrit sem tilkynnir şér şegar nır póstur berst
 Summary(it):	Utility per X Window che notifica l'arrivo di nuove mail
 Summary(ja):	¿·Ãå¥á¡¼¥ë¤òÄÌÃÎ¤¹¤ë X Window System ¥æ¡¼¥Æ¥£¥ê¥Æ¥£
 Summary(ko):	»õ ¸ŞÀÏÀ» ÅëÁöÇØÁÖ´Â X À©µµ¿ì ½Ã½ºÅÛ À¯Æ¿¸®Æ¼
-Summary(no):	Et systemverktøy for notifisering ved ny e-post under X vindusystemet
+Summary(nb):	Et systemverktøy for notifisering ved ny e-post under X vindusystemet
 Summary(pl):	Narzêdzie pod X powiadamiaj±ce o nowej poczcie
 Summary(pt):	Um utilitário do X Window System que o notifica do 'e-mail' novo
 Summary(ru):	õÔÉÌÉÔÁ ÄÌÑ ÉÚ×ÅİÅÎÉÑ Ï ĞÏÌÕŞÅÎÉÉ ÎÏ×ÏÊ ĞÏŞÔÙ × X Window System
