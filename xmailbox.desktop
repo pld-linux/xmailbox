@@ -7,3 +7,4 @@ Comment[pl]=Sprawdzanie poczty
 Icon=xmailbox.png
 Exec=xmailbox
 Terminal=false
+# vi: encoding=utf-8
