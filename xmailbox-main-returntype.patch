@@ -1,0 +1,19 @@
+--- xmailbox-2.5/xmailbox.c.main-returntype	Sat May 26 12:26:28 2001
++++ xmailbox-2.5/xmailbox.c	Sat May 26 12:27:01 2001
+@@ -73,7 +73,7 @@
+ }
+ 
+ 
+-void main (argc, argv)
++int main (argc, argv)
+     int argc;
+     char **argv;
+ {
+@@ -102,6 +102,7 @@
+     (void) XSetWMProtocols (XtDisplay(toplevel), XtWindow(toplevel),
+                             &wm_delete_window, 1);
+     XtAppMainLoop (xtcontext);
++    return 0;
+ }
+ 
+ static void quit (w, event, params, num_params)
