@@ -5,9 +5,6 @@ Version:	2.5
 Release:	7
 License:	MIT
 Group:		Applications/Mail
-Group(de):	Applikationen/Post
-Group(pl):	Aplikacje/Poczta
-Group(pt):	Aplicações/Correio Eletrônico
 Source0:	ftp://ftp.x.org/contrib/applications/%{name}-%{version}.tar.gz
 Patch1:		%{name}-2.2-xpm.patch
 Patch2:		%{name}-2.4-glibc.patch
