@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=xmailbox
+Type=Application
+Comment=xmailbox
+Exec=xmailbox
+Terminal=0
