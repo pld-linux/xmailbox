@@ -1,9 +1,9 @@
 Summary:	An X Window System utility which notifies you of new mail
-Summary(cs):	Upozornní na píchod nové poty v prostedí X Window System    
-Summary(da):	Et systemvrktj for notificering ved ny e-post under X vinduessystemet  
+Summary(cs):	Upozornní na píchod nové poty v prostedí X Window System
+Summary(da):	Et systemvrktj for notificering ved ny e-post under X vinduessystemet
 Summary(de):	Ein X Window System-Dienstprogramm, das Ihnen neue Post meldet
 Summary(es):	Utilidad para X Window que notifica de la llegada de correo
-Summary(fr):	Utilitaire pour le systme X Window qui vous informe de l'arrivée de nouveaux messages 
+Summary(fr):	Utilitaire pour le systme X Window qui vous informe de l'arrivée de nouveaux messages
 Summary(id):	Utility X Window System yang memberitahukan jika ada surat baru
 Summary(is):	X hjálparforrit sem tilkynnir þér þegar nýr póstur berst
 Summary(it):	Utility per X Window che notifica l'arrivo di nuove mail
@@ -48,7 +48,7 @@ xbiff program, avak mete si vybrat z více moností upozornní.
 Programmet xmailbox er et X-program som meddeler dig nr der
 kommer post. Xmailbox ligner programmet xbiff, men det tilbyder flere
 finesser og valgmuligheder.
- 
+
 %description -l de
 Das Programm xmailbox ist ein X Window System-Programm, das Sie
 benachrichtigt, wenn Mails eingehen. Es ähnelt dem Programm xbiff,
@@ -64,7 +64,7 @@ Le programme xmailbox est un programme pour le systme X Window qui vous
 informe de l'arrivée de nouveaux messages. Xmailbox est semblable au
 programme xbiff, mais il offre plus de fonctions et d'options de
 notification.
- 
+
 %description -l id
 Program xmailbox adalah program X Window System yang memberitahukan anda
 jika ada surat baru yang datang.  Xmailbox mirip dengan program xbiff,
@@ -74,12 +74,12 @@ tetapi memiliki kemampuan lainnya dan memiliki notification option.
 Xmailbox forriti er X gluggakerfisforrit sem ltur ig vita egar
 póstur berst.  Xmailbox svipar til forritsins xbiff, nema a býur
 upp á meiri möguleika og fjölbreyttari tilkynningar.
-       
+
 %description -l it
 Il programma xmailbox  un programma per X Window che segnala
 le mail quando arrivano. Xmailbox simile al programma xbiff, ma offre
 pi funzionalit e opzioni per la notifica."
-    
+
 %description -l ja
 xmailbox ¥×¥í¥°¥é¥à¤Ï¥á¡¼¥ë¤ÎÃå¿®¤òÄÌÃÎ¤¹¤ë X Window System ¥×¥í¥°¥é¥à¤Ç¤¹¡£
 xmailbox ¤Ï¡¢xbiff ¥×¥í¥°¥é¥à¤È»÷¤Æ¤¤¤Þ¤¹¤¬¤è¤êÂ¿¤¯¤Îµ¡Ç½¤ÈÄÌÃÎ¥ª¥×¥·¥ç¥ó¤ò
