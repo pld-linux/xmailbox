@@ -5,4 +5,4 @@ Comment=Mailbox checker
 Comment[pl]=Sprawdzanie poczty
 Icon=xmailbox.png
 Exec=xmailbox
-Terminal=0
+Terminal=false
