@@ -23,6 +23,7 @@ Release:	16
 License:	MIT
 Group:		Applications/Mail
 Source0:	ftp://ftp.x.org/contrib/applications/%{name}-%{version}.tar.gz
+# Source0-md5:	31ac48e470724267ec00f8f93ccf22af
 Source1:	%{name}.desktop
 Source2:	%{name}.png
 Patch1:		%{name}-xpm.patch
