@@ -1,13 +1,16 @@
-Summary: An X Window System utility which notifies you of new mail.
-Name: xmailbox
-Version: 2.5
-Release: 7
-Copyright: MIT
-Group: Applications/Internet
-Source: ftp://ftp.x.org/contrib/applications/xmailbox-2.5.tar.gz
-Patch1: xmailbox-2.2-xpm.patch
-Patch2: xmailbox-2.4-glibc.patch
-BuildRoot: /var/tmp/xmailbox-root
+Summary:	An X Window System utility which notifies you of new mail.
+Name:		xmailbox
+Version:	2.5
+Release:	7
+Copyright:	MIT
+Group:		Applications/Mail
+Source:		ftp://ftp.x.org/contrib/applications/%{name}-%{version}.tar.gz
+Patch1:		xmailbox-2.2-xpm.patch
+Patch2:		xmailbox-2.4-glibc.patch
+BuildRoot:	/tmp/%{name}-%{version}-root
+
+%define		_prefix		/usr/X11R6
+%define		_mandir		/usr/X11R6/man
 
 %description
 The xmailbox program is an X Window System program which notifies you
@@ -24,14 +27,18 @@ which will notify you when new mail arrives.
 
 %build
 xmkmf
-make 
+make CXXDEBUGFLAGS="$RPM_OPT_FLAGS" \
+	CDEBUGFLAGS="$RPM_OPT_FLAGS"
 
 %install
 rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT/etc/X11/wmconfig
+install -d $RPM_BUILD_ROOT/etc/X11/wmconfig
 
-strip xmailbox
-make DESTDIR=$RPM_BUILD_ROOT install install.man
+make install install.man DESTDIR=$RPM_BUILD_ROOT
+
+strip --strip-unneeded $RPM_BUILD_ROOT%{_bindir}/*
+
+gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man1/* README
 
 cat > $RPM_BUILD_ROOT/etc/X11/wmconfig/xmailbox <<EOF
 xmailbox name "xmailbox"
@@ -44,9 +51,9 @@ EOF
 rm -rf $RPM_BUILD_ROOT
 
 %files
-%defattr(-,root,root)
-%doc README
-/usr/X11R6/bin/xmailbox
-/usr/X11R6/man/man1/xmailbox.1x
-%config /usr/X11R6/lib/X11/app-defaults/XMailbox
+%defattr(644,root,root,755)
+%doc README.gz
+%attr(755,root,root) %{_bindir}/xmailbox
+%{_mandir}/man1/xmailbox.1x.gz
+%config %{_libdir}/X11/app-defaults/XMailbox
 %config /etc/X11/wmconfig/xmailbox
