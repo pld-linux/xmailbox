@@ -24,6 +24,11 @@ offers more features and notification options.
 Install the xmailbox package if you'd like a graphical program for X
 which will notify you when new mail arrives.
 
+%description -l pl
+xmailbox jest programem pod X Window System powiadamiaj±cy o nadej¶ciu
+poczty. Jest podobny do programu xbiff, lecz oferuje wiêcej mo¿liwo¶ci
+i opcji powiadomienia.
+
 %prep
 %setup -q
 %patch1 -p1
@@ -36,17 +41,18 @@ xmkmf
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_sysconfdir}/X11/wmconfig
+install -d $RPM_BUILD_ROOT%{_applnkdir}/Network/Mail
 
 %{__make} install install.man DESTDIR=$RPM_BUILD_ROOT
 
 gzip -9nf README
 
-cat > $RPM_BUILD_ROOT%{_sysconfdir}/X11/wmconfig/xmailbox <<EOF
-xmailbox name "xmailbox"
-xmailbox description "xmailbox"
-xmailbox group Utilities/Mail
-xmailbox exec "xmailbox &"
+cat > $RPM_BUILD_ROOT%{_applnkdir}/Network/Mail/xmailbox.desktop <<EOF
+Name=xmailbox
+Comment=xmailbox
+Exec=xmailbox
+Terminal=0
+Type=Application
 EOF
 
 %clean
@@ -58,4 +64,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/xmailbox
 %{_mandir}/man1/xmailbox.1x*
 %config %{_libdir}/X11/app-defaults/XMailbox
-%config %{_sysconfdir}/X11/wmconfig/xmailbox
+%{_applnkdir}/Network/Mail/xmailbox.desktop
