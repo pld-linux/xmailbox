@@ -7,7 +7,7 @@ Group:		Applications/Mail
 Source:		ftp://ftp.x.org/contrib/applications/%{name}-%{version}.tar.gz
 Patch1:		xmailbox-2.2-xpm.patch
 Patch2:		xmailbox-2.4-glibc.patch
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
 %define		_mandir		/usr/X11R6/man
