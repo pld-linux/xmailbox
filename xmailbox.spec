@@ -1,22 +1,22 @@
 Summary:	An X Window System utility which notifies you of new mail
-Summary(cs.UTF-8):   Upozornní na píchod nové poty v prostedí X Window System
-Summary(da.UTF-8):   Et systemvrktj for notificering ved ny e-post under X vinduessystemet
-Summary(de.UTF-8):   Ein X Window System-Dienstprogramm, das Ihnen neue Post meldet
-Summary(es.UTF-8):   Utilidad para X Window que notifica de la llegada de correo
-Summary(fr.UTF-8):   Utilitaire pour le systme X Window qui vous informe de l'arrivée de nouveaux messages
-Summary(id.UTF-8):   Utility X Window System yang memberitahukan jika ada surat baru
-Summary(is.UTF-8):   X hjálparforrit sem tilkynnir þér þegar nýr póstur berst
-Summary(it.UTF-8):   Utility per X Window che notifica l'arrivo di nuove mail
-Summary(ja.UTF-8):   新着メールを通知する X Window System ユーティリティ
-Summary(ko.UTF-8):   새 메일을 통지해주는 X 윈도우 시스템 유틸리티
-Summary(nb.UTF-8):   Et systemverktøy for notifisering ved ny e-post under X vindusystemet
-Summary(pl.UTF-8):   Narzędzie pod X powiadamiające o nowej poczcie
-Summary(pt.UTF-8):   Um utilitário do X Window System que o notifica do 'e-mail' novo
-Summary(ru.UTF-8):   Утилита для извещения о получении новой почты в X Window System
-Summary(sk.UTF-8):   Nástroj pre systém X Window, ktorá vás upozorňuje na novú poštu
-Summary(sl.UTF-8):   Pripomoček, ki vas v Oknih X opozori na novo pošto
-Summary(sv.UTF-8):   Ett verktyg under X11 som meddelar när du fått ny post
-Summary(zh_CN.UTF-8):   一个通知你新到邮件的 X 窗口系统工具。
+Summary(cs.UTF-8):	Upozornní na píchod nové poty v prostedí X Window System
+Summary(da.UTF-8):	Et systemvrktj for notificering ved ny e-post under X vinduessystemet
+Summary(de.UTF-8):	Ein X Window System-Dienstprogramm, das Ihnen neue Post meldet
+Summary(es.UTF-8):	Utilidad para X Window que notifica de la llegada de correo
+Summary(fr.UTF-8):	Utilitaire pour le systme X Window qui vous informe de l'arrivée de nouveaux messages
+Summary(id.UTF-8):	Utility X Window System yang memberitahukan jika ada surat baru
+Summary(is.UTF-8):	X hjálparforrit sem tilkynnir þér þegar nýr póstur berst
+Summary(it.UTF-8):	Utility per X Window che notifica l'arrivo di nuove mail
+Summary(ja.UTF-8):	新着メールを通知する X Window System ユーティリティ
+Summary(ko.UTF-8):	새 메일을 통지해주는 X 윈도우 시스템 유틸리티
+Summary(nb.UTF-8):	Et systemverktøy for notifisering ved ny e-post under X vindusystemet
+Summary(pl.UTF-8):	Narzędzie pod X powiadamiające o nowej poczcie
+Summary(pt.UTF-8):	Um utilitário do X Window System que o notifica do 'e-mail' novo
+Summary(ru.UTF-8):	Утилита для извещения о получении новой почты в X Window System
+Summary(sk.UTF-8):	Nástroj pre systém X Window, ktorá vás upozorňuje na novú poštu
+Summary(sl.UTF-8):	Pripomoček, ki vas v Oknih X opozori na novo pošto
+Summary(sv.UTF-8):	Ett verktyg under X11 som meddelar när du fått ny post
+Summary(zh_CN.UTF-8):	一个通知你新到邮件的 X 窗口系统工具。
 Name:		xmailbox
 Version:	2.5
 Release:	16
