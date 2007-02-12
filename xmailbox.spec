@@ -1,22 +1,22 @@
 Summary:	An X Window System utility which notifies you of new mail
-Summary(cs):	Upozornní na píchod nové poty v prostedí X Window System
-Summary(da):	Et systemvrktj for notificering ved ny e-post under X vinduessystemet
-Summary(de):	Ein X Window System-Dienstprogramm, das Ihnen neue Post meldet
-Summary(es):	Utilidad para X Window que notifica de la llegada de correo
-Summary(fr):	Utilitaire pour le systme X Window qui vous informe de l'arrivée de nouveaux messages
-Summary(id):	Utility X Window System yang memberitahukan jika ada surat baru
-Summary(is):	X hjálparforrit sem tilkynnir şér şegar nır póstur berst
-Summary(it):	Utility per X Window che notifica l'arrivo di nuove mail
-Summary(ja):	¿·Ãå¥á¡¼¥ë¤òÄÌÃÎ¤¹¤ë X Window System ¥æ¡¼¥Æ¥£¥ê¥Æ¥£
-Summary(ko):	»õ ¸ŞÀÏÀ» ÅëÁöÇØÁÖ´Â X À©µµ¿ì ½Ã½ºÅÛ À¯Æ¿¸®Æ¼
-Summary(nb):	Et systemverktøy for notifisering ved ny e-post under X vindusystemet
-Summary(pl):	Narzêdzie pod X powiadamiaj±ce o nowej poczcie
-Summary(pt):	Um utilitário do X Window System que o notifica do 'e-mail' novo
-Summary(ru):	õÔÉÌÉÔÁ ÄÌÑ ÉÚ×ÅİÅÎÉÑ Ï ĞÏÌÕŞÅÎÉÉ ÎÏ×ÏÊ ĞÏŞÔÙ × X Window System
-Summary(sk):	Nástroj pre systém X Window, ktorá vás upozoròuje na novú po¹tu
-Summary(sl):	Pripomoèek, ki vas v Oknih X opozori na novo po¹to
-Summary(sv):	Ett verktyg under X11 som meddelar när du fått ny post
-Summary(zh_CN):	Ò»¸öÍ¨ÖªÄãĞÂµ½ÓÊ¼şµÄ X ´°¿ÚÏµÍ³¹¤¾ß¡£
+Summary(cs.UTF-8):   UpozornnÃ­ na pÃ­chod novÃ© poty v prostedÃ­ X Window System
+Summary(da.UTF-8):   Et systemvrktj for notificering ved ny e-post under X vinduessystemet
+Summary(de.UTF-8):   Ein X Window System-Dienstprogramm, das Ihnen neue Post meldet
+Summary(es.UTF-8):   Utilidad para X Window que notifica de la llegada de correo
+Summary(fr.UTF-8):   Utilitaire pour le systme X Window qui vous informe de l'arrivÃ©e de nouveaux messages
+Summary(id.UTF-8):   Utility X Window System yang memberitahukan jika ada surat baru
+Summary(is.UTF-8):   X hjÃ¡lparforrit sem tilkynnir Ã¾Ã©r Ã¾egar nÃ½r pÃ³stur berst
+Summary(it.UTF-8):   Utility per X Window che notifica l'arrivo di nuove mail
+Summary(ja.UTF-8):   æ–°ç€ãƒ¡ãƒ¼ãƒ«ã‚’é€šçŸ¥ã™ã‚‹ X Window System ãƒ¦ãƒ¼ãƒ†ã‚£ãƒªãƒ†ã‚£
+Summary(ko.UTF-8):   ìƒˆ ë©”ì¼ì„ í†µì§€í•´ì£¼ëŠ” X ìœˆë„ìš° ì‹œìŠ¤í…œ ìœ í‹¸ë¦¬í‹°
+Summary(nb.UTF-8):   Et systemverktÃ¸y for notifisering ved ny e-post under X vindusystemet
+Summary(pl.UTF-8):   NarzÄ™dzie pod X powiadamiajÄ…ce o nowej poczcie
+Summary(pt.UTF-8):   Um utilitÃ¡rio do X Window System que o notifica do 'e-mail' novo
+Summary(ru.UTF-8):   Ğ£Ñ‚Ğ¸Ğ»Ğ¸Ñ‚Ğ° Ğ´Ğ»Ñ Ğ¸Ğ·Ğ²ĞµÑ‰ĞµĞ½Ğ¸Ñ Ğ¾ Ğ¿Ğ¾Ğ»ÑƒÑ‡ĞµĞ½Ğ¸Ğ¸ Ğ½Ğ¾Ğ²Ğ¾Ğ¹ Ğ¿Ğ¾Ñ‡Ñ‚Ñ‹ Ğ² X Window System
+Summary(sk.UTF-8):   NÃ¡stroj pre systÃ©m X Window, ktorÃ¡ vÃ¡s upozorÅˆuje na novÃº poÅ¡tu
+Summary(sl.UTF-8):   PripomoÄek, ki vas v Oknih X opozori na novo poÅ¡to
+Summary(sv.UTF-8):   Ett verktyg under X11 som meddelar nÃ¤r du fÃ¥tt ny post
+Summary(zh_CN.UTF-8):   ä¸€ä¸ªé€šçŸ¥ä½ æ–°åˆ°é‚®ä»¶çš„ X çª—å£ç³»ç»Ÿå·¥å…·ã€‚
 Name:		xmailbox
 Version:	2.5
 Release:	16
@@ -40,80 +40,80 @@ The xmailbox program is an X Window System program which notifies you
 when mail arrives. Xmailbox is similar to the xbiff program, but it
 offers more features and notification options.
 
-%description -l cs
-Xmailbox je program pro X Window System, kterı vás upozorní,
-kdy vám pijde nová elektronická pota. Xmailbox je podobnı programu
-xbiff program, avak mete si vybrat z více moností upozornní.
+%description -l cs.UTF-8
+Xmailbox je program pro X Window System, kterÃ½ vÃ¡s upozornÃ­,
+kdy vÃ¡m pijde novÃ¡ elektronickÃ¡ pota. Xmailbox je podobnÃ½ programu
+xbiff program, avak mete si vybrat z vÃ­ce monostÃ­ upozornnÃ­.
 
-%description -l da
+%description -l da.UTF-8
 Programmet xmailbox er et X-program som meddeler dig nr der
 kommer post. Xmailbox ligner programmet xbiff, men det tilbyder flere
 finesser og valgmuligheder.
 
-%description -l de
+%description -l de.UTF-8
 Das Programm xmailbox ist ein X Window System-Programm, das Sie
-benachrichtigt, wenn Mails eingehen. Es ähnelt dem Programm xbiff,
+benachrichtigt, wenn Mails eingehen. Es Ã¤hnelt dem Programm xbiff,
 bietet jedoch mehr Funktionen und Benachrichtigungsoptionen.
 
-%description -l es
+%description -l es.UTF-8
 El programa xmailbox es un programa para X Window que notifica de
 la llegada de nuevo correo. Xmailbox es similar al programa xbiff, pero
-proporciona más funciones y opciones de notificación.
+proporciona mÃ¡s funciones y opciones de notificaciÃ³n.
 
-%description -l fr
+%description -l fr.UTF-8
 Le programme xmailbox est un programme pour le systme X Window qui vous
-informe de l'arrivée de nouveaux messages. Xmailbox est semblable au
+informe de l'arrivÃ©e de nouveaux messages. Xmailbox est semblable au
 programme xbiff, mais il offre plus de fonctions et d'options de
 notification.
 
-%description -l id
+%description -l id.UTF-8
 Program xmailbox adalah program X Window System yang memberitahukan anda
 jika ada surat baru yang datang.  Xmailbox mirip dengan program xbiff,
 tetapi memiliki kemampuan lainnya dan memiliki notification option.
 
-%description -l is
+%description -l is.UTF-8
 Xmailbox forriti er X gluggakerfisforrit sem ltur ig vita egar
-póstur berst.  Xmailbox svipar til forritsins xbiff, nema a bıur
-upp á meiri möguleika og fjölbreyttari tilkynningar.
+pÃ³stur berst.  Xmailbox svipar til forritsins xbiff, nema a bÃ½ur
+upp Ã¡ meiri mÃ¶guleika og fjÃ¶lbreyttari tilkynningar.
 
-%description -l it
+%description -l it.UTF-8
 Il programma xmailbox  un programma per X Window che segnala
 le mail quando arrivano. Xmailbox simile al programma xbiff, ma offre
 pi funzionalit e opzioni per la notifica."
 
-%description -l ja
-xmailbox ¥×¥í¥°¥é¥à¤Ï¥á¡¼¥ë¤ÎÃå¿®¤òÄÌÃÎ¤¹¤ë X Window System ¥×¥í¥°¥é¥à¤Ç¤¹¡£
-xmailbox ¤Ï¡¢xbiff ¥×¥í¥°¥é¥à¤È»÷¤Æ¤¤¤Ş¤¹¤¬¤è¤êÂ¿¤¯¤Îµ¡Ç½¤ÈÄÌÃÎ¥ª¥×¥·¥ç¥ó¤ò
-Äó¶¡¤·¤Æ¤¤¤Ş¤¹¡£
+%description -l ja.UTF-8
+xmailbox ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¯ãƒ¡ãƒ¼ãƒ«ã®ç€ä¿¡ã‚’é€šçŸ¥ã™ã‚‹ X Window System ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã§ã™ã€‚
+xmailbox ã¯ã€xbiff ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¨ä¼¼ã¦ã„ã¾ã™ãŒã‚ˆã‚Šå¤šãã®æ©Ÿèƒ½ã¨é€šçŸ¥ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã‚’
+æä¾›ã—ã¦ã„ã¾ã™ã€‚
 
-%description -l pl
-xmailbox jest programem pod X Window System powiadamiaj±cy o nadej¶ciu
-poczty. Jest podobny do programu xbiff, lecz oferuje wiêcej mo¿liwo¶ci
+%description -l pl.UTF-8
+xmailbox jest programem pod X Window System powiadamiajÄ…cy o nadejÅ›ciu
+poczty. Jest podobny do programu xbiff, lecz oferuje wiÄ™cej moÅ¼liwoÅ›ci
 i opcji powiadomienia.
 
-%description -l pt
-O programa xmailbox é um programa do X Window System que o notifica
-quando chega 'e-mail'. o xmailbox é parecido com o xbiff, mas oferece
-mais capacidades e opções de notificação.
+%description -l pt.UTF-8
+O programa xmailbox Ã© um programa do X Window System que o notifica
+quando chega 'e-mail'. o xmailbox Ã© parecido com o xbiff, mas oferece
+mais capacidades e opÃ§Ãµes de notificaÃ§Ã£o.
 
-%description -l ru
-ğÒÏÇÒÁÍÍÁ xmailbox - ÜÔÏ ĞÒÏÇÒÁÍÍÁ ÄÌÑ X Window System, ËÏÔÏÒÁÑ ÉÚ×ÅİÁÅÔ
-Ï ĞÏÌÕŞÅÎÉÉ ÎÏ×ÏÊ ĞÏŞÔÙ. Xmailbox ĞÏÈÏÖÁ ÎÁ ĞÒÏÇÒÁÍÍÕ xbiff, ÎÏ ÏÎÁ
-ÉÍÅÅÔ ÂÏÌØÛÅ ×ÏÚÍÏÖÎÏÓÔÅÊ É ÏĞÃÉÊ.
+%description -l ru.UTF-8
+ĞŸÑ€Ğ¾Ğ³Ñ€Ğ°Ğ¼Ğ¼Ğ° xmailbox - ÑÑ‚Ğ¾ Ğ¿Ñ€Ğ¾Ğ³Ñ€Ğ°Ğ¼Ğ¼Ğ° Ğ´Ğ»Ñ X Window System, ĞºĞ¾Ñ‚Ğ¾Ñ€Ğ°Ñ Ğ¸Ğ·Ğ²ĞµÑ‰Ğ°ĞµÑ‚
+Ğ¾ Ğ¿Ğ¾Ğ»ÑƒÑ‡ĞµĞ½Ğ¸Ğ¸ Ğ½Ğ¾Ğ²Ğ¾Ğ¹ Ğ¿Ğ¾Ñ‡Ñ‚Ñ‹. Xmailbox Ğ¿Ğ¾Ñ…Ğ¾Ğ¶Ğ° Ğ½Ğ° Ğ¿Ñ€Ğ¾Ğ³Ñ€Ğ°Ğ¼Ğ¼Ñƒ xbiff, Ğ½Ğ¾ Ğ¾Ğ½Ğ°
+Ğ¸Ğ¼ĞµĞµÑ‚ Ğ±Ğ¾Ğ»ÑŒÑˆĞµ Ğ²Ğ¾Ğ·Ğ¼Ğ¾Ğ¶Ğ½Ğ¾ÑÑ‚ĞµĞ¹ Ğ¸ Ğ¾Ğ¿Ñ†Ğ¸Ğ¹.
 
-%description -l sk
-Program xmailbox pre systém X Window vás upozoròuje na príchod
-novej po¹ty. Xmailbox je podobnı programu xbiff, ale ponúka
-viac mo¾ností a volieb na upozornenie.
+%description -l sk.UTF-8
+Program xmailbox pre systÃ©m X Window vÃ¡s upozorÅˆuje na prÃ­chod
+novej poÅ¡ty. Xmailbox je podobnÃ½ programu xbiff, ale ponÃºka
+viac moÅ¾nostÃ­ a volieb na upozornenie.
 
-%description -l sv
-Programmet xmailbox går under X11 och meddelar dig när det
+%description -l sv.UTF-8
+Programmet xmailbox gÃ¥r under X11 och meddelar dig nÃ¤r det
 kommer post.  Xmailbox liknar programmet xbiff, men det erbjuder fler
-finesser och valmöjligheter.
+finesser och valmÃ¶jligheter.
 
-%description -l zh_CN
-xmailbox ³ÌĞòÊÇÒ»ÖÖÔÚÓÊ¼şµ½´ïÊ±ÏòÄú·¢³öÍ¨ÖªµÄ X Window ÏµÍ³³ÌĞò¡£
-Xmailbox ÀàËÆÓÚ xbiff ³ÌĞò£¬µ«ÊÇÌá¹©ÁË¸ü¶àµÄ¹¦ÄÜºÍÍ¨ÖªÑ¡Ïî¡£
+%description -l zh_CN.UTF-8
+xmailbox ç¨‹åºæ˜¯ä¸€ç§åœ¨é‚®ä»¶åˆ°è¾¾æ—¶å‘æ‚¨å‘å‡ºé€šçŸ¥çš„ X Window ç³»ç»Ÿç¨‹åºã€‚
+Xmailbox ç±»ä¼¼äº xbiff ç¨‹åºï¼Œä½†æ˜¯æä¾›äº†æ›´å¤šçš„åŠŸèƒ½å’Œé€šçŸ¥é€‰é¡¹ã€‚
 
 %prep
 %setup -q
