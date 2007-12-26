@@ -1,10 +1,9 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=Xmailbox
 Type=Application
 Comment=Mailbox checker
 Comment[pl]=Sprawdzanie poczty
-Icon=xmailbox.png
+Icon=xmailbox
 Exec=xmailbox
 Terminal=false
 # vi: encoding=utf-8
